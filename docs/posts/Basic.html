@@ -185,10 +185,11 @@ window.Quarto = {
 <p><code>-</code> 생존시간</p>
 <p>어떤 정의된 시점부터 특정한 사건(event)이 관측될 때까지의 시간</p>
 <p><code>-</code> 생존함수</p>
-<p><span class="math inline">\(S(t) = P(T&gt;t) = 1 - F(t)\)</span></p>
+<p><span class="math inline">\(\displaystyle S(t) = P(T&gt;t) = 1 - F(t)\)</span></p>
 <p><code>-</code> 위험함수</p>
-<p><span class="math inline">\(h(t) = \lim_{{h \to 0}} \frac{P(t&lt;T&lt;t+h \mid T \geq t)}{h} = \frac{f(t)}{S(t)}\)</span></p>
+<p><span class="math inline">\(\displaystyle h(t) = \lim_{{h \to 0}} \frac{P(t&lt;T&lt;t+h \mid T \geq t)}{h} = \frac{f(t)}{S(t)}\)</span></p>
 <p><code>-</code> 생존함수와 위험함수의 관계</p>
+<p><span class="math inline">\(\displaystyle h(t) = -\frac {S'(t)}{S(t)} = \frac{d \log S(t)}{dt S(t)}\)</span></p>
 
 
 </section>

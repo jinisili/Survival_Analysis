@@ -11,14 +11,14 @@
     "href": "posts/Basic.html",
     "title": "기본 개념",
     "section": "",
-    "text": "- 생존시간\n어떤 정의된 시점부터 특정한 사건(event)이 관측될 때까지의 시간\n- 생존함수\n\\(S(t) = P(T&gt;t) = 1 - F(t)\\)\n- 위험함수\n\\(h(t) = \\lim_{{h \\to 0}} \\frac{P(t&lt;T&lt;t+h \\mid T \\geq t)}{h} = \\frac{f(t)}{S(t)}\\)\n- 생존함수와 위험함수의 관계"
+    "text": "- 생존시간\n어떤 정의된 시점부터 특정한 사건(event)이 관측될 때까지의 시간\n- 생존함수\n\\(\\displaystyle S(t) = P(T&gt;t) = 1 - F(t)\\)\n- 위험함수\n\\(\\displaystyle h(t) = \\lim_{{h \\to 0}} \\frac{P(t&lt;T&lt;t+h \\mid T \\geq t)}{h} = \\frac{f(t)}{S(t)}\\)\n- 생존함수와 위험함수의 관계\n\\(\\displaystyle h(t) = -\\frac {S'(t)}{S(t)} = \\frac{d \\log S(t)}{dt S(t)}\\)"
   },
   {
     "objectID": "posts/Basic.html#함수",
     "href": "posts/Basic.html#함수",
     "title": "기본 개념",
     "section": "",
-    "text": "- 생존시간\n어떤 정의된 시점부터 특정한 사건(event)이 관측될 때까지의 시간\n- 생존함수\n\\(S(t) = P(T&gt;t) = 1 - F(t)\\)\n- 위험함수\n\\(h(t) = \\lim_{{h \\to 0}} \\frac{P(t&lt;T&lt;t+h \\mid T \\geq t)}{h} = \\frac{f(t)}{S(t)}\\)\n- 생존함수와 위험함수의 관계"
+    "text": "- 생존시간\n어떤 정의된 시점부터 특정한 사건(event)이 관측될 때까지의 시간\n- 생존함수\n\\(\\displaystyle S(t) = P(T&gt;t) = 1 - F(t)\\)\n- 위험함수\n\\(\\displaystyle h(t) = \\lim_{{h \\to 0}} \\frac{P(t&lt;T&lt;t+h \\mid T \\geq t)}{h} = \\frac{f(t)}{S(t)}\\)\n- 생존함수와 위험함수의 관계\n\\(\\displaystyle h(t) = -\\frac {S'(t)}{S(t)} = \\frac{d \\log S(t)}{dt S(t)}\\)"
   },
   {
     "objectID": "about.html",
